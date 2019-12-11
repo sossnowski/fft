@@ -53,12 +53,6 @@ int main()
             } else {
                 dataArray.push_back(0);
             }
-
-            fftw_free(out);
-            free(in);
-
-            in = (double*) fftw_malloc(sizeof(double) * amountOfSamplesPerSymbol);
-            out = (fftw_complex*) fftw_malloc(sizeof(fftw_complex) * amountOfSamplesPerSymbol / 2 +1);
         }
 
     }
