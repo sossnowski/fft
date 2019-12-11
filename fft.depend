@@ -1,6 +1,8 @@
 # depslib dependency file v1.0
-1575930427 source:/root/cpp/fft/main.cpp
+1576062050 source:/root/cpp/fft/main.cpp
 	<fstream>
 	<iostream>
 	<fftw3.h>
+	<math.h>
+	<vector>
 
